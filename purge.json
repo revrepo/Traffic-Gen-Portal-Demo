@@ -1,0 +1,12 @@
+{
+  "domainName": "www.loop.org",
+  "purges": [
+    {
+      "url": {
+        "is_wildcard": true,
+        "expression": "/images/*.png"
+      }
+    }
+  ],
+  "environment": "global_and_staging"
+}
